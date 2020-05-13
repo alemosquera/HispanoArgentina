@@ -10262,8 +10262,9 @@ header.masthead .masthead-heading {
         line-height: 2.25rem;
         margin-bottom: 2rem;
     }
+    /* tamaño de letra de "es un placer onocerte" */
     header.masthead .masthead-heading {
-        font-size: 4.5rem;
+        font-size: 2.5rem;
         font-weight: 700;
         line-height: 4.5rem;
         margin-bottom: 4rem;
@@ -10424,6 +10425,9 @@ header.masthead .masthead-heading {
     border-left-width: 0;
 }
 
+
+/* borde de circulos de la linea historica  */
+
 .timeline>li .timeline-image {
     position: absolute;
     z-index: 100;
@@ -10433,7 +10437,7 @@ header.masthead .masthead-heading {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #e9ecef;
+    border: 7px solid #7FFFD4;
     border-radius: 100%;
     background-color: #9fd5d1;
 }
