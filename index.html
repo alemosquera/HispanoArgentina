@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
 
@@ -401,45 +402,45 @@
         </div>
     </section> -->
     <!-- Contact-->
-    <div class="container">
-        <div class="formularioContacto">
-            <form id="formulario1" class="formulario1">
-                <h1>Contactanos de forma rápida y fácil</h1>
-                <div class="box-input">
-                    <input name="nombre" id="nombre" type="text" required>
-                    <span data-placeholder="Escriba su Nombre"></span>
-                </div>
-                <div class="box-input">
-                    <input name="apellidos" id="apellidos" type="text" required>
-                    <span data-placeholder="Escriba su Apellido"></span>
-                </div>
-                <div class="box-input">
-                    <input name="email" id="email" type="email" required>
-                    <span data-placeholder="Escriba su Correo Electrónico"></span>
-                </div>
-                <button id="submit" type="submit" class="boton"><i class="fab fa-whatsapp"></i> Enviar WhatsApp</button>
-            </form>
 
-            <script type="text/javascript">
-                $(".box-input input").on("focus", function() {
-                    $(this).addClass("focus");
-                });
+    <div class="formularioContacto">
+        <form id="formulario1" class="formulario1">
+            <h1>Contactanos de forma rápida y fácil</h1>
+            <div class="box-input">
+                <input name="nombre" id="nombre" type="text" required>
+                <span data-placeholder="Escriba su Nombre"></span>
+            </div>
+            <div class="box-input">
+                <input name="apellidos" id="apellidos" type="text" required>
+                <span data-placeholder="Escriba su Apellido"></span>
+            </div>
+            <div class="box-input">
+                <input name="email" id="email" type="email" required>
+                <span data-placeholder="Escriba su Correo Electrónico"></span>
+            </div>
+            <button id="submit" type="submit" class="boton"><i class="fab fa-whatsapp"></i> Enviar WhatsApp</button>
+        </form>
 
-                $(".box-input input").on("blur", function() {
-                    if ($(this).val() == "") {
-                        $(this).removeClass("focus");
-                    }
-                });
-            </script>
+        <script type="text/javascript">
+            $(".box-input input").on("focus", function() {
+                $(this).addClass("focus");
+            });
 
+            $(".box-input input").on("blur", function() {
+                if ($(this).val() == "") {
+                    $(this).removeClass("focus");
+                }
+            });
+        </script>
 
-        </div>
 
     </div>
 
 
+
+
     <!-- Footer-->
-    <div>
+    <div class="block">
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
@@ -453,7 +454,7 @@
             </div>
         </footer>
     </div>
-    <div class="col-lg-4 text-lg-right"><a class="mr-3" href="#!">Políticas de Privacidad</a><a href="#!">Terminos de uso</a></div>
+
 
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -465,6 +466,7 @@
     <script src="assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+
 
 </body>
 
