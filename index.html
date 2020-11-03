@@ -112,13 +112,6 @@
             transition: .5s;
         }
         
-        col-md-6 {
-            width: 50%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
         .fabricamoslonas {
             font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
             color: black;
@@ -135,22 +128,28 @@
             -webkit-border-radius: 35px 0px 35px 0px;
             border: 2px solid black;
         }
+        
+        .center-block {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
     </style>
 </head>
 
 <body id="page-top">
     <!-- Navigation-->
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav class="container navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger text-danger" href="#page-top"><i class="text-white">Hispano</i>Argentina</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Historia</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Servicios</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Comienzos</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Equipo</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#PreguntasFrecuentes">Preguntas Frecuentes</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#formulario1">Contacto</a></li>
                 </ul>
             </div>
@@ -183,132 +182,149 @@
 
 
 
-    <div class="col-md-6 ">
+
+
+    <div class="col-md-6 center-block ">
         <img src="assets/img/logos/logoultimo.png" class="img-responsive" alt="titulo" />
         <div class="h-30"></div>
+    </div>
 
-        <!-- Services-->
-        <section class="page-section" id="services">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Servicios</h2>
-                    <h3 class="section-subheading text-muted">Una buena protección puede cambiar tu negocio para siempre</h3>
+    <!-- Services-->
+    <section class="page-section" id="services">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Servicios</h2>
+                <h3 class="section-subheading text-muted">Una buena protección puede cambiar tu <b>hogar</b> o tu <b>negocio</b> para siempre</h3>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-handshake fa-stack-1x fa-inverse"></i></span>
+                    <h4 class="my-3">Pre-venta</h4>
+                    <p class="text-muted">Ofrecemos una atención personalizada, donde asesoramos y orientamos a cada cliente según sus necesidades. En está etapa obtenemos un conocimiento de cada necesidad para ofrecer la mejor opción</p>
                 </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-umbrella fa-stack-1x fa-inverse"></i></span>
-                        <h4 class="my-3">Soluciones contra el clima</h4>
-                        <p class="text-muted">Las lluvias, los vientos o el intenso sol ya no serán un problema para tu negocio, por el contrario ahora todos querrán estar allí, disfrutanto de una protección moderna y segura.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-umbrella-beach fa-stack-1x fa-inverse"></i></span>
-                        <h4 class="my-3">Equipamos tu Balneario</h4>
-                        <p class="text-muted">Somos la solución perfecta para tu Balneario de Playa. Te asesoramos para que te quipes con la más alta calidad en lonas para carpas, sombrillas, gazebos, toldos y más!</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-hand-holding-heart fa-stack-1x fa-inverse"></i></span>
-                        <h4 class="my-3">Normas de higiene</h4>
-                        <p class="text-muted">Nuestra empresa cumple con todas las reglamentaciones de higiene y cuidado personal obligatorias, garantizando la salud de nuestros clientes y nuestro personal de trabajo. Desde 1965 somos garantía de confianza</p>
-                    </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-phone-volume fa-stack-1x fa-inverse"></i></span>
+                    <h4 class="my-3">Post-venta</h4>
+                    <p class="text-muted">Buscamos la satisfacción del cliente, por ello siempre estamos predispuesto a escuchar y analizar cada inquietud de nuestros clientes y en base a ellos buscamos la solución justa a cada caso.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-hand-holding-heart fa-stack-1x fa-inverse"></i></span>
+                    <h4 class="my-3">Seguridad e higiene</h4>
+                    <p class="text-muted">Aplicamos todas las medidas para que tanto nuestro personal interno o toda persona externa que visita nuestras instalaciones se sientan seguras y protegidas. Somos sinónimo de Garantía desde 1965.
+                    </p>
                 </div>
             </div>
-        </section>
-        <!-- Portfolio Grilla aqui comienza la galeria de imagenes de cada negocio ( con boostrap)-->
-        <section class="page-section bg-light" id="portfolio">
+        </div>
+    </section>
+    <!-- Portfolio Grilla aqui comienza la galeria de imagenes de cada negocio ( con boostrap)-->
+    <section class="page-section bg-light" id="portfolio">
 
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Un cliente satisfecho es la mejor estrategia de negocio</h3>
-                </div>
-                <!--Carousel Wrapper-->
-                <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
-                    <!--Indicators-->
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-2" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-2" data-slide-to="2"></li>
-                        <li data-target="#carousel-example-2" data-slide-to="3"></li>
-                        <li data-target="#carousel-example-2" data-slide-to="4"></li>
-                        <li data-target="#carousel-example-2" data-slide-to="5"></li>
-                    </ol>
-                    <!--/.Indicators-->
-                    <!--Slides-->
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <div class="view">
-                                <img class="d-block w-100 " alt="Responsive image" src="assets/img/portfolio/mediterraneo.jpg" alt="First slide">
-                                <div class="mask rgba-black-light"></div>
-                            </div>
-                            <div class="carousel-caption">
-                                <h3 class="h3-responsive">
-                                    <marquee>Mediterraneo Restó</marquee>
-                                </h3>
-                                <p>Estilo y calidad</p>
-                            </div>
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Portfolio</h2>
+                <h3 class="section-subheading text-muted">Un cliente satisfecho es la mejor estrategia de negocio</h3>
+            </div>
+            <!--Carousel Wrapper-->
+            <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-2" data-slide-to="3"></li>
+                    <li data-target="#carousel-example-2" data-slide-to="4"></li>
+                    <li data-target="#carousel-example-2" data-slide-to="5"></li>
+                </ol>
+                <!--/.Indicators-->
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="view">
+                            <img class="d-block w-100" alt="Responsive image" src="assets/img/portfolio/mediterraneo.jpg" alt="First slide">
+                            <div class="mask rgba-black-light"></div>
                         </div>
-                        <div class="carousel-item">
-                            <!--Mask color-->
-                            <div class="view">
-                                <img class="d-block w-100" alt="Responsive image" src="assets/img/portfolio/lonaroja.jpg" alt="Second slide">
-                                <div class="mask rgba-black-light"></div>
-                            </div>
-                            <div class="carousel-caption ">
-                                <h3 class="h3-responsive">
-                                    Cerrosud S.A.
-                                </h3>
-                                <p>Cerramiento de flota vehicular</p>
-                            </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">
+                                <marquee>Mediterraneo Restó</marquee>
+                            </h3>
+                            <p>Estilo y calidad</p>
+
+
                         </div>
-                        <div class="carousel-item">
-                            <!--Mask color-->
-                            <div class="view">
-                                <img class="d-block w-100" alt="Responsive image" src="assets/img/portfolio/depostres.jpg" alt="Third slide">
-                                <div class="mask rgba-black-light"></div>
-                            </div>
-                            <div class="carousel-caption">
-                                <h3 class="h3-responsive">
-                                    De Postres
-                                </h3>
-                                <p>Diseño a medida</p>
-                            </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view">
+                            <img class="d-block w-100" alt="Responsive image" src="assets/img/portfolio/lonaroja.jpg" alt="Second slide">
+                            <div class="mask rgba-black-light"></div>
                         </div>
-                        <div class="carousel-item">
-                            <!--Mask color-->
-                            <div class="view">
-                                <img class="d-block w-100" alt="Responsive image" src="assets/img/portfolio/torreon.jpg" alt="Third slide">
-                                <div class="mask rgba-black-light"></div>
-                            </div>
-                            <div class="carousel-caption">
-                                <h3 class="h3-responsive">
-                                    Torreon del Monje
-                                </h3>
-                                <p>Renovación completa</p>
-                            </div>
+                        <div class="carousel-caption ">
+                            <h3 class="h3-responsive">
+                                Cerrosud S.A.
+                            </h3>
+                            <p>Cerramiento de flota vehicular</p>
+
+
+
                         </div>
-                        <div class="carousel-item">
-                            <!--Mask color-->
-                            <div class="view">
-                                <img class="d-block w-100" alt="Responsive image" src="assets/img/portfolio/condor1.jpg" alt="Third slide">
-                                <div class="mask rgba-black-light"></div>
-                            </div>
-                            <div class="carousel-caption">
-                                <h3 class="h3-responsive">
-                                    El Condor
-                                </h3>
-                                <p>Frente completo</p>
-                            </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view">
+                            <img class="d-block w-100" alt="Responsive image" src="assets/img/portfolio/depostres.jpg" alt="Third slide">
+                            <div class="mask rgba-black-light"></div>
                         </div>
-                        <div class="carousel-item">
-                            <!--Mask color-->
-                            <div class="view">
-                                <img class="d-block w-100" alt="Responsive image" src="assets/img/portfolio/princesa.jpg" alt="Third slide">
-                                <div class="mask rgba-black-light"></div>
-                            </div>
-                            <div class="carousel-caption">
-                                <h3 class="h3-responsive">Princesa del Mar</h3>
-                                <p>Equipamiento completo</p>
-                            </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">
+                                De Postres
+                            </h3>
+                            <p>Diseño a medida</p>
+
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view">
+                            <img class="d-block w-100" alt="Responsive image" src="assets/img/portfolio/torreon.jpg" alt="Third slide">
+                            <div class="mask rgba-black-light"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">
+                                Torreon del Monje
+                            </h3>
+                            <p>Renovación completa</p>
+
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view">
+                            <img class="d-block w-100" alt="Responsive image" src="assets/img/portfolio/condor1.jpg" alt="Third slide">
+                            <div class="mask rgba-black-light"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">
+                                El Condor
+                            </h3>
+                            <p>Frente completo</p>
+
+
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view">
+                            <img class="d-block w-100" alt="Responsive image" src="assets/img/portfolio/princesa.jpg" alt="Third slide">
+                            <div class="mask rgba-black-light"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">Princesa del Mar</h3>
+                            <p>Equipamiento completo</p>
+                            < </div>
                         </div>
                     </div>
                     <!--/.Slides-->
@@ -323,130 +339,154 @@
                     </a>
                     <!--/.Controls-->
                 </div>
-                <!--/.Carousel Wrapper-->
-        </section>
-        <!-- About-->
-        <section class="page-section" id="about">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Comienzos</h2>
-                    <h3 class="section-subheading text-muted">Los primeros pasos de La Hispano Argentina</h3>
-                </div>
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/111.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>1965</h4>
-                                <h4 class="subheading">Como surgió la idea</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Toda crisis significa oportunidad, y asi fue que en el año 1965, finalizando el gobierno de Arturo Illia, Hispano Argentina abrio sus puertas apostando al desarrollo de la Industria Argentina</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/fondo0.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Marzo 1980</h4>
-                                <h4 class="subheading">Ampliamos nuestros horizontes</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Gracias al compromiso de todos nuestros trabajadores, abrimos en Mar del Plata la primer Fábrica de Lonas de Argentina de la costa atlantica.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/fondo7.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Diciembre 2010</h4>
-                                <h4 class="subheading">Ayudando a nuestros Balnearios</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Gracias a la donación de cientos de lonas y equipamiento, 14 balnearios Marplatenses pudieron reabrir sus puertas luego de la gran tormenta que destruyó gran parte de la costa.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/mano2.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Noviembre 2020</h4>
-                                <h4 class="subheading">La Pandemia no nos detiene</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Hay un dicho en los negocios que dice: "Nunca desperdicies una crisis.." es por eso que Hispano Argentina lanza su nueva Web Institucional para estar más cerca tuyo que nunca!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>Se parte<br />de nuestra<br />Historia!</h4>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <br/>
-        <div class="fabricamoslonas">
-            <marquee>Diseñamos y colocamos lonas de todo tipo</marquee>
-        </div>
-        <br/>
-
-
-
-
-
-        <!-- cartas de productos con boostrap-->
+                <br/>
+                <a href="Portfolio.html" class="btn btn-primary btn-block">+ info sobre nuestros productos</a>
+    </section>
+    <!-- About-->
+    <section class="page-section" id="about">
         <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Comienzos</h2>
+                <h3 class="section-subheading text-muted">Los primeros pasos de La Hispano Argentina</h3>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/111.jpg" alt="" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>1965</h4>
+                            <h4 class="subheading">Historia</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Lonera Hispano Argentina nace hace mas de 65 años junto con la llegada de un inmigrante español, un tornero, que al dar uno de sus primeros pasos por la ciudad vio que la gente en la playa necesitaba cubrirse del sol, es así
+                                como decide invertir su primer sueldo de tornero en hacer una sombrilla. Se focalizo en la necesidad del publico y en el clima de Mar del Plata, debiendo ser un producto resistente al viento, tal fue el éxito que tuvo con
+                                su creación que al día de hoy es una sombrilla reconocida por su calidad y resistencia a nivel nacional. “Don Enrique, el gallego” como muchos lo apodaban, supo adaptarse, innovarse y ampliarse en el negocio de lonas (persona
+                                muy carismática y comprometida con su trabajo, siempre ofreciendo productos y servicios de excelencia. La experiencia adquirida con el correr de los años fue transmitida a su equipo, hoy el legado que nos ha dejado es muy
+                                amplio, estamos orgullosos de continuar su desafío, nos comprometemos y superamos día tras día para que Lonera Hispano Argentina siga siendo “la lonera líder del mercado”
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <!-- <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/fondo0.jpg" alt="" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>Marzo 1980</h4>
+                            <h4 class="subheading">Ampliamos nuestros horizontes</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Gracias al compromiso de todos nuestros trabajadores, abrimos en Mar del Plata la primer Fábrica de Lonas de Argentina de la costa atlantica.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/fondo7.jpg" alt="" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>Diciembre 2010</h4>
+                            <h4 class="subheading">Ayudando a nuestros Balnearios</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Gracias a la donación de cientos de lonas y equipamiento, 14 balnearios Marplatenses pudieron reabrir sus puertas luego de la gran tormenta que destruyó gran parte de la costa.</p>
+                        </div>
+                    </div>
+                </li> -->
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/actualidad.png" alt="" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>Actualidad</h4>
+                            <h4 class="subheading">2020</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Hoy contamos con un equipo profesional altamente capacitado, dedicado a resolver cada tarea y cada trabajo con <strong>pasión</strong> para que nuestros clientes se vayan con la satisfacción de haber cubierto sus expectativas
+                                con el producto solicitado.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image">
+                        <h4>Se parte<br />de nuestra<br />Historia!</h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <br/>
+    <div class="fabricamoslonas">
+        <marquee>Diseñamos y colocamos lonas de todo tipo</marquee>
+    </div>
+    <br/>
 
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top img-resposive" src="assets/img/about/fondo8.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Lonas y telas para Negocios, viviendas, trasnportes, balnearios y mas! Toldos y brazo invisible. Multiples usos, interior y exterior.</p>
+
+
+
+
+    <!-- cartas de productos con boostrap-->
+
+    <div class="container">
+        <div class="row">
+
+            <div class="center-block">
+
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/img/about/fondo8.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Lonas y telas para Negocios, viviendas, trasnportes, balnearios y mas! Toldos y brazo invisible. Multiples usos, interior y exterior.</p>
+                    </div>
                 </div>
-            </div>
-            <br/>
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="assets/img/about/fondo2.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Lonería completa y todos los insumos para la confección de cortinas rollers, cortinas zebra y toldos.</p>
+                <br/>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top " src="assets/img/about/fondo2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Lonería completa y todos los insumos para la confección de cortinas rollers, cortinas zebra y toldos.</p>
+                    </div>
                 </div>
-            </div>
-            <br/>
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="assets/img/about/pileta.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Lonas, accesorios e insumos para piletas y juegos recreativos al aire libre</p>
+                <br/>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/img/about/pileta.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Lonas, accesorios e insumos para piletas y juegos recreativos al aire libre</p>
+                    </div>
                 </div>
+                <br/>
             </div>
-            <br/>
+        </div>
+    </div>
+
+    </br>
+    </br>
+    </br>
+    </br>
+
+    <!-- carta de preguntas frecuentes-->
+
+    <div class="container" id="PreguntasFrecuentes">
+        <div class="card">
+            <div class="card-header">
+                Preguntas Frecuentes
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Necesitas sacarte algunas dudas?</h5>
+                <p class="card-text">Dale click y obtene información de las preguntas más frecuentes que nuestros clientes necesitan saber.</p>
+                <a href="preguntas.html" class="btn btn-primary">Click aqui</a>
+            </div>
         </div>
 
-        <!--fin de cartas de productos-->
+    </div>
 
-        <!-- Clients-->
-        <!-- <section class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/envato.jpg" alt="" /></a>
-                </div>
-                <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/designmodo.jpg" alt="" /></a>
-                </div>
-                <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/themeforest.jpg" alt="" /></a>
-                </div>
-                <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/creative-market.jpg" alt="" /></a>
-                </div>
-            </div>
-        </div>
-    </section> -->
-        <!-- Contact-->
+    </br>
+    </br>
+    </br>
+    </br>
+
+
+
+    <!-- Contact-->
+
+    <div class="container">
+
 
         <div class="formularioContacto">
             <form id="formulario1" class="formulario1">
@@ -480,46 +520,40 @@
 
 
         </div>
+    </div>
 
 
-        <div>
-            <div class="card">
-                <div class="card-header">
-                    Preguntas Frecuentes
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Necesitas sacarte algunas dudas?</h5>
-                    <p class="card-text">Dale click y obtene información de las preguntas más frecuentes que nuestros clientes necesitan saber.</p>
-                    <a href="preguntas.html" class="btn btn-primary">Click aqui</a>
-                </div>
-            </div>
 
-        </div>
 
-        <!-- Footer-->
-        <div class="block">
+    <!-- Footer-->
+    <div class="container">
 
-            <div class="col-lg-4 my-3 my-lg-0">
+
+        <div class="row">
+
+
+            <div class="col-lg-4 my-3 my-lg-0 center-block">
                 <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/lonerahispano/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a class="btn btn-dark btn-social mx-2" href="https:/www.linkedin.com/in/lonera-hispano-argentina-94622256" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </div>
-
-
-
-
         </div>
 
 
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Contact form JS-->
-        <script src="assets/mail/jqBootstrapValidation.js"></script>
-        <script src="assets/mail/contact_me.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+
+
+    </div>
+
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
 
 
 </body>
