@@ -194,7 +194,7 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Servicios</h2>
-                <h3 class="section-subheading text-muted">Una buena protección puede cambiar tu <b>hogar</b> o tu <b>negocio</b> para siempre</h3>
+                <h3 class="section-subheading text-muted">Una buena protección puede cambiar tu <b>hogar</b> o tu <b>Negocio</b> para siempre</h3>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
@@ -205,13 +205,13 @@
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-phone-volume fa-stack-1x fa-inverse"></i></span>
                     <h4 class="my-3">Post-venta</h4>
-                    <p class="text-muted">Buscamos la satisfacción del cliente, por ello siempre estamos predispuesto a escuchar y analizar cada inquietud de nuestros clientes y en base a ellos buscamos la solución justa a cada caso.
+                    <p class="text-muted">Buscamos la satisfacción del cliente, por ello siempre estamos predispuestos a escuchar y analizar cada inquietud de nuestros clientes y en base a ellos buscamos la solución justa a cada caso
                     </p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-hand-holding-heart fa-stack-1x fa-inverse"></i></span>
-                    <h4 class="my-3">Seguridad e higiene</h4>
-                    <p class="text-muted">Aplicamos todas las medidas para que tanto nuestro personal interno o toda persona externa que visita nuestras instalaciones se sientan seguras y protegidas. Somos sinónimo de Garantía desde 1965.
+                    <h4 class="my-3">Seguridad e Higiene</h4>
+                    <p class="text-muted">Aplicamos todas las medidas para que tanto nuestro personal interno o toda persona externa que visita nuestras instalaciones se sientan seguras y protegidas. Somos sinónimo de <b>garantía</b> desde 1965.
                     </p>
                 </div>
             </div>
@@ -539,6 +539,39 @@
         </div>
 
 
+
+
+    </div>
+    <br/>
+    <div class="btn-danger text-center ">
+
+        <script>
+            $(function() {
+                var selectedClass = " ";
+                $(".filter ").click(function() {
+                    selectedClass = $(this).attr("data-rel ");
+                    $("#gallery ").fadeTo(100, 0.1);
+                    $("#gallery div ").not(". " + selectedClass).fadeOut().removeClass('animation');
+                    setTimeout(function() {
+                        $(". " + selectedClass).fadeIn().addClass('animation');
+                        $("#gallery ").fadeTo(300, 1);
+                    }, 300);
+                });
+            });
+        </script>
+
+        <script>
+            var ran
+            ran = Math.round(Math.random() * 1000)
+            document.write("Usted es el visitante " + ran + " de esta página. ")
+        </script>
+
+        <script type="text/javascript ">
+            function imagen() {
+                imagen = '<img src="IMG/mapa.jpg " alt="cargando... " />'
+                document.getElementById('imagencargando').innerHTML = imagen;
+            }
+        </script>
 
 
     </div>
